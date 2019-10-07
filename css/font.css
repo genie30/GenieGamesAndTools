@@ -1,0 +1,28 @@
+@font-face{
+    font-family: myfont;
+    src: url(../font/sub.ttf) format("truetype");
+}
+
+body{
+    font-family: myfont, メイリオ;
+    background-color: white;
+    color: black;
+    width: 95vw; height: auto;
+    min-width: 500px;
+}
+
+.Style1 {
+    font-size: 45px;
+}
+
+.Style2 {
+    font-size: xx-large;
+}
+
+.Style3 {
+      font-size: large;
+}
+
+.textblock{
+    display: inline-block;
+}
